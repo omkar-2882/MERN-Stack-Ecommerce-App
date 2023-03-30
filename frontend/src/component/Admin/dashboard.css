@@ -1,0 +1,147 @@
+.dashboard {
+  /* width: 100vw;
+  height: 100vh; */
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  row-gap: 1.5rem;
+  margin-top: 8vh;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+
+.dashboardContainer {
+  border-left: 1px solid var(--pink);
+  background-color: rgb(255, 255, 255);
+  /* padding: 3rem 0; */
+}
+
+.dashboardContainer > h1 {
+  color: rgb(0, 0, 0);
+  background-color: white;
+  font: 400 1.5rem var(--sm-font);
+  text-align: center;
+  width: 100%;
+  padding: 1.5rem;
+  margin: auto;
+}
+
+.dashboardSummary {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0rem 0;
+}
+
+.dashboardSummary > div {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+}
+
+.dashboardSummary > div > p {
+  background-color: #FBE5E5;
+  color: var(--pink);
+  font: 400 1.3rem var(--sm-font);
+  text-align: center;
+  padding: 1.5rem;
+  width: 100%;
+  margin: 0;
+}
+
+.dashboardSummaryBox2 > a {
+  color: rgb(255, 255, 255);
+  font: 400 2rem var(--sm-font);
+  text-align: center;
+  background-color: rgb(41, 235, 170);
+  text-decoration: none;
+  padding: 1.5rem;
+  font-size: 100%;
+  width: 10vmax;
+  height: 10vmax;
+  margin: 2rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dashboardSummaryBox2 > a:first-child {
+  background-color: rgb(53, 227, 247);
+  color: rgb(255, 251, 251);
+}
+
+.dashboardSummaryBox2 > a:last-child {
+  background-color: rgb(255, 130, 130);
+  color: rgb(255, 255, 255);
+}
+
+.charts{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.lineChart {
+  width: 60%;
+  margin: auto;
+}
+
+.doughnutChart {
+  width: 30%;
+  margin: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  
+  .dashboardSummaryBox2 > a {
+    margin: 1rem;
+    font: 300 70% var(--sm-font);
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+    grid-template-rows: 6fr 6fr;
+  }
+
+  .dashboardContainer {
+    border-left: none;
+  }
+
+  .dashboardSummary > div > p {
+    margin: 0;
+  }
+
+  .dashboardSummaryBox2 > a {
+    padding: 0.5rem;
+    margin: 1rem;
+    font: 300 40% var(--sm-font);
+  }
+  .dashboardSummaryBox2 > div > p {
+    margin: 0rem;
+  }
+  .charts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+  }
+  .lineChart {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .doughnutChart {
+    width: 60%;
+    margin: auto;
+  }
+  
+  
+}
+

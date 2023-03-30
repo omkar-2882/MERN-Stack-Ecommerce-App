@@ -1,0 +1,56 @@
+.sidebar {
+  background-color: var(--pink);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0 0;
+}
+
+/* .sidebar > a:first-child {
+  padding: 0;
+} */
+.sidebar > a > img {
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.sidebar > a > img:hover {
+  filter: drop-shadow(0 0 10px var(--pink));
+}
+.sidebar a, .tree{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font: 400 1rem var(--sm-font);
+  margin: 2rem;
+  /* padding-left: 3rem; */
+  transition: all 0.4s;
+  transform: translateX(-10);
+}
+
+.tree{
+  padding-bottom: 1rem;
+  background-color: var(--pink);
+}
+
+.subLink>TreeItem{
+  font: 300 1.1rem var(--sm-font);
+}
+
+.sidebar a:hover, .tree:hover {
+  color: white;
+  /* transform: scale(1.1); */
+  /* transform: translateX(-10); */
+}
+
+.sidebar a > p {
+  display: flex;
+  align-items: center;
+}
+.sidebar a > p > svg {
+  margin-right: 0.5rem;
+}
+
+.MuiTypography-root {
+  /* background-color: #fff !important; */
+}

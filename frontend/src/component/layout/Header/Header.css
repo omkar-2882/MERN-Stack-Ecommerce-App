@@ -1,0 +1,33 @@
+.speedDial {
+  position: fixed;
+  right: 2vmax;
+  top: 1vmax;
+}
+
+.profilepic{
+  width: 60px;
+  height: 60px;
+}
+
+.speedDialIcon {
+  object-fit:cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  color: var(--pink);
+}
+
+.MuiSpeedDialAction-fab {
+  background-color: var(--pink) !important  ;
+}
+
+.MuiFab-root>.MuiFab-label>.MuiSvgIcon-root{
+  color: rgb(255, 255, 255);
+}
+.logindiv {
+  padding-left: 4vh;
+}
+
+.logindiv button:hover{
+  color: var(--pink);
+}

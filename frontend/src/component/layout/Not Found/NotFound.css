@@ -1,0 +1,59 @@
+.PageNotFound {
+  margin: auto;
+  margin-top: 10vh;
+  text-align: center;
+  padding-bottom: 10vmax;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+.PageNotFound > svg {
+  font-size: 7vmax;
+  color: var(--pink);
+}
+
+.PageNotFound>img{
+  object-fit: cover;
+  width: 50%;
+}
+
+.PageNotFound > p {
+  font-size: 2vmax;
+}
+.PageNotFound > a {
+  background-color: #ff735c;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 100px;
+  padding: 1vmax 3vmax;
+  cursor: pointer;
+  font: 400 1vmax var(--sm-font);
+  text-decoration: none;
+  margin: 2vmax;
+  transition: all 0.5s;
+}
+
+.PageNotFound > a:hover {
+  border: 1px solid #ff735c;
+  background-color: white;
+  color: #ff735c;
+}
+
+@media screen and (max-width: 600px) {
+  .PageNotFound > a {
+    padding: 3vw 6vw;
+    font: 400 4vw var(--sm-font);
+    margin: 2vmax;
+  }
+
+  .PageNotFound > img {
+    object-fit: cover;
+    width: 100%;
+    }
+  .PageNotFound > p {
+    margin: 2vmax;
+    font-size: 5vw;
+  }
+}
