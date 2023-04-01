@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ff1b61a6.css",
-    "main.js": "/static/js/main.5ad21d24.js",
+    "main.js": "/static/js/main.9284c86c.js",
     "static/media/offer_img.jpg": "/static/media/offer_img.774a0799fcb4beeb1ee1.jpg",
     "static/media/notfound.jpg": "/static/media/notfound.1798fa102fc489e7e1c0.jpg",
     "static/media/about-us.jpg": "/static/media/about-us.05b80316a13651a25137.jpg",
@@ -16,10 +16,10 @@
     "static/media/Appstore.png": "/static/media/Appstore.d0c5839937e3c36285f6.png",
     "index.html": "/index.html",
     "main.ff1b61a6.css.map": "/static/css/main.ff1b61a6.css.map",
-    "main.5ad21d24.js.map": "/static/js/main.5ad21d24.js.map"
+    "main.9284c86c.js.map": "/static/js/main.9284c86c.js.map"
   },
   "entrypoints": [
     "static/css/main.ff1b61a6.css",
-    "static/js/main.5ad21d24.js"
+    "static/js/main.9284c86c.js"
   ]
 }
