@@ -34,7 +34,7 @@ const Payment = ({ history }) => {
   const { error } = useSelector((state) => state.newOrder);
 
   const paymentData = {
-    amount: Math.round(orderInfo.totalPrice),
+    amount: Math.round(orderInfo.totalPrice*100),
   };
 
   const order = {
