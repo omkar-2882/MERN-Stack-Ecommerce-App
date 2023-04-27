@@ -119,3 +119,14 @@
     font: 400 1.8vmax var(--sm-font);
   }
 }
+
+@media screen and (max-width: 320px) {
+  /* .paginationBox{
+    margin: 6vmax 0vmax;
+  } */
+  .page-link {
+    font: 300 1.2vmax var(--sm-font);
+    padding: 0.3rem 0.50rem;
+  }
+
+}

@@ -2,7 +2,7 @@
   margin: auto;
   text-align: center;
   padding: 10vmax;
-  height: 50vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,22 +10,29 @@
 }
 .orderSuccess > svg {
   font-size: 7vmax;
-  color: tomato;
+  color: var(--pink);
 }
 .orderSuccess > p {
   font-size: 2vmax;
 }
 .orderSuccess > a {
-  background-color: rgb(51, 51, 51);
+  border: 1px solid transparent;
+  border-radius: 60px;
+  background-color: var(--pink);
   color: white;
-  border: none;
-  padding: 1vmax 3vmax;
+  font: 300 0.9vmax;
+  width: 20%;
+  padding: 0.8vmax;
+  margin-top: 2rem;
   cursor: pointer;
-  font: 400 1vmax "Roboto";
-  text-decoration: none;
-  margin: 2vmax;
+  transition: all 0.5s;
+  outline: none;
 }
-
+.orderSuccess > a:hover {
+  background-color: rgb(255, 255, 255);
+  color: var(--pink);
+  border: 1px solid var(--pink);
+}
 @media screen and (max-width: 600px) {
   .orderSuccess > a {
     padding: 3vw 6vw;

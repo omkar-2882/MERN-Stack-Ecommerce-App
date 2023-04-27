@@ -9,7 +9,7 @@ const ContactUs = () => {
     e.preventDefault(); 
     console.log(subject)
     console.log(body)
-    window.location.href = `mailto:omkar.gawde2882@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:smash8950@gmail.com?subject=${subject}&body=${body}`;
   };
   return (
     <section className="contact spad">

@@ -26,19 +26,16 @@ const About = () => {
             <div class="col-lg-4 col-md-4 col-sm-6">
               <div class="about__item">
                 <h4>Who We Are ?</h4>
-                <p>
-                  Contextual advertising programs sometimes have strict policies
-                  that need to be adhered too. Let’s take Google as an example.
+                <p >
+                Our app was founded on the belief that shopping should be easy, convenient, and enjoyable. We understand the frustration that comes with navigating crowded stores and long checkout lines. That's why we've created a platform that allows you to shop from the comfort of your own home.
                 </p>
               </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6">
               <div class="about__item">
-                <h4>Who We Do ?</h4>
+                <h4>What We Do ?</h4>
                 <p>
-                  In this digital generation where information can be easily
-                  obtained within seconds, business cards still have retained
-                  their importance.
+                Our team is committed to providing you with the best possible experience. We are constantly working to improve our app, adding new features and updating our product offerings to ensure that we are always meeting the needs of our customers.
                 </p>
               </div>
             </div>
@@ -46,9 +43,7 @@ const About = () => {
               <div class="about__item">
                 <h4>Why Choose Us</h4>
                 <p>
-                  A two or three storey house is the ideal way to maximise the
-                  piece of earth on which our home sits, but for older or infirm
-                  people.
+                We pride ourselves on our commitment to customer service. If you ever have any questions or concerns, our friendly and knowledgeable support team is always here to help. We believe that great customer service is the key to building long-lasting relationships with our customers.
                 </p>
               </div>
             </div>

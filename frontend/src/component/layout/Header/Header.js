@@ -35,7 +35,7 @@ const Header = () => {
           </Link>
 
           <div className="order-lg-2 nav-btns d-flex">
-            <Link to="/cart">
+            <Link id="mycart" to="/cart">
               <button type="button" className="btn position-relative">
                 <i className="fa fa-shopping-cart"></i>
                 <span className="position-absolute top-0 start-100 translate-middle badge bg-primary">
@@ -76,7 +76,8 @@ const Header = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          {isAuthenticated && <UserOptions user={user} />}
+
+          {/* <div>{isAuthenticated && <UserOptions user={user} />}</div> */}
 
           <div className="collapse navbar-collapse order-lg-1" id="navMenu">
             <ul className="navbar-nav mx-auto text-center">
@@ -123,6 +124,7 @@ const Header = () => {
             </ul>
           </div>
         </div>
+        <div>{isAuthenticated && <UserOptions user={user} />}</div>
       </nav>
     </Fragment>
   );
